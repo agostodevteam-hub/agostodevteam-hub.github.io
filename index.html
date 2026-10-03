@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agosto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Nav: brand sa left, links sa right (class "soon" = coming soon alert muna) -->
+  <nav>
+    <a class="brand" href="#">Agosto</a>
+    <div class="links">
+      <a href="#projects">Projects</a>
+      <a class="soon" href="developers.html">Developers</a>
+    </div>
+  </nav>
+
+  <!-- Projects: carousel, si script.js ang naglalagay ng laman kaya walang laman dito -->
+  <section id="projects">
+    <div class="carousel">
+      <button id="prev" aria-label="Previous project">&lt;</button>
+      <div class="slide side" id="slide-prev"></div>
+      <div class="slide main" id="slide-main"></div>
+      <div class="slide side" id="slide-next"></div>
+      <button id="next" aria-label="Next project">&gt;</button>
+    </div>
+    <div class="dots" id="dots"></div>
+  </section>
+
+  <hr>
+
+  <!-- About: palitan ng totoong logo yung placeholder -->
+  <section id="about">
+    <div class="logo">Company<br>Logo / Pic</div>
+    <div>
+      <h1>Agosto</h1>
+      <p>
+        A software development studio. We create apps
+        and/or websites for our clients with utmost quality. We'll create your
+        projects as if they're our own.
+      </p>
+      <a class="team-link soon" href="developers.html">Meet the team &rarr;</a>
+    </div>
+  </section>
+
+  <!-- Services: isulat pa yung "Description" sa Desktop at Mobile Apps -->
+  <section id="services">
+    <h2>Services</h2>
+
+    <div class="service">
+      <div>
+        <h3>Websites</h3>
+        <p>We'll turn your ideas into functional websites that are easy for your visitors to use and to look at.</p>
+      </div>
+      <button class="soon" aria-label="See examples">&gt;</button>
+    </div>
+
+    <div class="service">
+      <div>
+        <h3>Desktop Apps</h3>
+        <p>Applications that will make your business more efficient and productive or your personal work easier.</p>
+      </div>
+      <button class="soon" aria-label="See examples">&gt;</button>
+    </div>
+
+    <div class="service">
+      <div>
+        <h3>Mobile Apps</h3>
+        <p>Applications that you can use on your smartphone or tablet.</p>
+      </div>
+      <button class="soon" aria-label="See examples">&gt;</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
