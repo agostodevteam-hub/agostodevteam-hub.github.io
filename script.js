@@ -7,7 +7,7 @@ const projects = [
   { title: "Project Five",  type: "Group",      desc: "Short description of the project." }
 ];
 
-const SLIDE_DELAY = 5000; // Variable: wait time (ms) bago mag auto-slide
+const SLIDE_DELAY = 3000; // Variable: wait time (ms) bago mag auto-slide
 const ANIM_TIME   = 600;  // Variable: tagal (ms) ng slide animation
 const OFFSET      = 200;  // Variable: layo (px) ng galaw ng slides palabas ng edges
 
